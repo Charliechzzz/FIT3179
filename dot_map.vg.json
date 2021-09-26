@@ -1,0 +1,43 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 500,
+  "height": 300,
+  "title": "dot_map",
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/Charliechzzz/FIT3179/main/ausmap.topo.json",
+        "format": {
+          "type": "topojson",
+          "feature": "ausmap"
+        }
+      },
+      "projection": {
+        "type": "mercator"
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "lightgray",
+        "stroke": "white"
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/Charliechzzz/FIT3179/main/mapsheet.csv"
+      },
+      "mark": "circle",
+      "encoding": {
+        "longitude": {
+          "field": "Longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "Latitude",
+          "type": "quantitative"
+        },
+        "size": {"value": 10},
+        "color": {"field": "BE Score","type": "quantitative","scale":{"scheme":"reds"}}
+      }
+    }
+  ]
+}
