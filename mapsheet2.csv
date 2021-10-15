@@ -1,4 +1,4 @@
-Location,School Name,Type,Latitude,Longitude,ICSEA
+Location,School Name,Type,Latitude,Longitude,Score
 Western Australia,SHARK BAY SCHOOL,Primary,-25.92280075,113.5309441,945
 Western Australia,CARNARVON CHRISTIAN SCHOOL (INC),Primary,-24.87551778,113.6576221,1027
 Western Australia,ST MARY STAR OF THE SEA CATHOLIC SCHOOL,Primary,-24.88555971,113.6586924,996
@@ -4312,5 +4312,3 @@ New South Wales,Byron Bay Public School,Primary,-28.6474,153.615,1068
 New South Wales,Byron Community Primary School,Primary,-28.6478,153.615,1133
 New South Wales,Byron Bay High School,Secondary,-28.6676,153.616,1041
 New South Wales,St Finbarr's Primary School,Primary,-28.6656,153.616,1096
-New South Wales,Lord Howe Island Central School,Primary,-31.5304,159.069,1049
-New South Wales,Lord Howe Island Central School,Secondary,-31.5304,159.069,1049
